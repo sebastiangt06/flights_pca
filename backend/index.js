@@ -10,7 +10,7 @@ require('./models/associations');
 
 //CORS
 app.use(cors({
-    origin: 'http://localhost:5173'  // Permitir solicitudes front
+    origin: 'https://flights-frontend-beta.vercel.app/'  // Permitir solicitudes front
 }));
 
 app.use(express.json());
