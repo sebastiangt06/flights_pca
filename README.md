@@ -63,7 +63,7 @@ Acceso a la Aplicación
 - **El frontend está disponible en:** 
  (https://flights-frontend-beta.vercel.app/)
 
- https://flights-frontend-beta.vercel.app/
+
 - **El backend está disponible en:**
 (https://flights-pca.onrender.com/)
 
