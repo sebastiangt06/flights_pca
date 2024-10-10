@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL_FLIGHTS = "http://localhost:3000/api/flights";
-const API_URL = "http://localhost:3000/api";
+const API_URL_FLIGHTS = "https://flights-pca.onrender.com/api/flights";
+const API_URL = "https://flights-pca.onrender.com/api";
 
 const flightService = {
   createFlight: (flightData) => axios.post(API_URL_FLIGHTS, flightData),
