@@ -9,9 +9,7 @@ const statsRoutes = require('./routes/statsRoutes');
 require('./models/associations');
 
 //CORS
-app.use(cors({
-    origin: 'https://flights-frontend-beta.vercel.app/'  // Permitir solicitudes front
-}));
+app.use(cors());
 
 app.use(express.json());
 app.use('/api', flightRoutes);
